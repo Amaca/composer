@@ -1,0 +1,29 @@
+@import "variables";
+
+/*--------------------------------------------------
+Slider
+--------------------------------------------------*/
+.wscomposer {
+
+   .slider {
+
+       .gallery, .composer-gallery {
+
+           .slick-next {
+               right: 15px; 
+               z-index: 50;
+           }
+
+           .slick-prev {
+               left: 15px;
+               z-index: 50;
+           }
+
+           img {
+               width: 100%; 
+           }
+       }
+   }
+}
+
+   

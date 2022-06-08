@@ -1,0 +1,27 @@
+@import "variables";
+
+/*--------------------------------------------------
+Image Item
+--------------------------------------------------*/
+.wscomposer {
+
+    .image-item {
+
+        @include sm {
+            margin: 0 0 30px 0;
+        }
+                
+        .caption {
+            font-size: 14px;
+            color: #989898;
+            padding: 10px 0;
+            font-style: italic;
+        } 
+
+        .img {
+            width: 100%;
+        }
+    }
+}
+
+  

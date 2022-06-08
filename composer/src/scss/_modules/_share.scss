@@ -1,0 +1,30 @@
+@import "variables";
+
+/*--------------------------------------------------
+Share
+--------------------------------------------------*/
+.wscomposer {
+
+   .share {
+
+       .intro {
+           margin-bottom: 10px;
+           margin-left: 4px;
+           font-weight: bold;
+       }
+
+       &.align-left {
+           text-align: left;
+       }
+
+       &.align-center {
+           text-align: center;
+       }
+
+       &.align-right {
+           text-align: right;
+       }
+   }
+}
+
+    

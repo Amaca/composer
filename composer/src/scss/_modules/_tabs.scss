@@ -1,0 +1,48 @@
+@import "variables";
+
+/*--------------------------------------------------
+Tabs
+--------------------------------------------------*/
+.wscomposer {
+
+   .tabs {
+
+       .tab-content {
+           padding: 20px 0;
+    
+           
+           .tab-pane {
+               
+               &:first-child {
+                   display: block;
+               }
+
+                .description {
+
+                    img {
+                       padding: 10px 0;
+                       max-width: 100%;
+                       height: auto;
+
+                        &.aligncenter {
+                             margin: 0 auto;
+                             display: block;
+                        }
+
+                        &.alignleft {
+                            float: left;
+                            margin-right: 20px;
+                        }
+
+                        &.alignright { 
+                            float: right;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+           }
+       } 
+   }
+}
+
+    

@@ -1,0 +1,36 @@
+@import "variables";
+
+/*--------------------------------------------------
+CTA
+--------------------------------------------------*/
+.wscomposer {
+
+   .cta {
+       text-align: center;
+
+       &.align-left {
+           text-align: left;
+       }
+        
+       &.align-right {
+           text-align: right;
+       }
+
+       a {
+           padding: 10px 30px;
+           font-size: 18px;
+           border: none;
+           text-decoration: none; 
+
+
+           &:hover {
+               opacity: 0.5;
+           }
+
+           @include xxs {
+               display: inline-block;
+               width: 100%;
+           }
+       }
+   }
+}  
